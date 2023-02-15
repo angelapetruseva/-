@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Web app</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+    <link id="estilo" rel="stylesheet" type="text/css" href="./css/normal.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="main-h1">
+            Креирај квиз за било кој град
+        </h1>
+        <p class="project-description">
+            "Креирај квиз за било кој град"
+            е веб-апликација која ви овозможува да управувате со квизови на една
+            одредена тема во која можните одговори се точни или неточни.
+            Апликацијата е развиена како дел од практиката за предмет
+            Интернет програмирање, смер: Компјутерско инженерство и технологии,
+            Универзитет „Гоце Делчев“ Штип
+        </p>
+        <nav>
+            <ul>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="formulario" id="nuevoCuestionario">
+            <ul>
+                <li>
+                    <label>Име на град:</label>
+                    <input type="text" name="tema" autofocus required id="f0">
+                </li>
+                <li>
+                    <input type="button" name="crea" id="f1" value="Креирај нов квиз">
+                </li>
+            </ul>
+        </div>
+        <section class="questionnaires">
+        </section>
+    </main>
+    <footer>
+        <div>
+            <a>Име и презиме: Ангела Петрушева</a> |
+            <a>Број на индекс: 102343</a> |
+            <a>Под менторство на: Проф. д-р. Зоран Здравев</a>
+        </div>
+    </footer>
+</body>
+
+<script src="./script.js"></script>
+<script src="/js/helpers.js"></script>
+<script src="/js/encabezado-cuestionario.js"></script>
+</html>

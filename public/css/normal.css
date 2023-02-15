@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    color: #333333;
+    font-family: 'Droid Serif', serif;
+}
+
+header {
+    max-width: 1080px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+main {
+    max-width: 1080px;
+    margin: auto;
+}
+
+.main-h1 {
+    text-align: center;
+}
+
+.project-description {
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+nav ul a:hover {
+    cursor: pointer;
+}
+
+.formulario ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 30px 0 20px 0;
+}
+
+.formulario ul li {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+}
+
+.formulario ul li:first-child {
+    border-top: 1px solid #777;
+}
+
+.formulario ul li:last-child {
+    border-bottom: 1px solid #777
+}
+
+.formulario ul li label {
+    display: inline-block;
+    width: 15em;
+}
+
+.formulario ul li input {
+    border: 1px solid #aaa;
+}
+
+.formulario ul li input[type="text"],
+input[type="url"] {
+    box-shadow: 0px 0px 3px #ccc, 0 5px 8px #eee inset;
+    border-radius: 2px;
+}
+
+.questionnaires {
+    margin-top: 80px;
+}
+
+footer {
+    background-color: steelblue;
+    color: white;
+    width: 100%;
+    line-height: 50px;
+    margin-top: 100px;
+}
+
+footer div {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+footer div a {
+    color: white;
+}

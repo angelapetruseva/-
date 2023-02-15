@@ -1,0 +1,12 @@
+{
+  "name": "Un questionnaire de la compra escrito con Node.js",
+  "env": {
+    "questionnaire_ENV": "heroku"
+  },
+  "addons": ["heroku-postgresql:hobby-dev"],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
